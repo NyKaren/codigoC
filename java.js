@@ -13,5 +13,4 @@ else {
     bubbleShape ="square";
 }
 drawName(myName, letterColors);
-<!--faz palavra tremer-->
-bounceName();
+bounceBubbles();
