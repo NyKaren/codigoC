@@ -52,7 +52,7 @@ html, body {
     left: 50%;
 
     width: 500px;
-    height: 1000px;
+    height: 500px;
     margin-top: -250px;
     margin-left: -250px;
 
@@ -60,4 +60,32 @@ html, body {
     border-style: dotted;
     border-color: white;
     border-radius: 50%;
+     /* ... seus outros estilos de órbita ... */
+
+  -webkit-animation: spin-right 10s linear infinite;
+     -moz-animation: spin-right 10s linear infinite;
+      -ms-animation: spin-right 10s linear infinite;
+       -o-animation: spin-right 10s linear infinite;
+          animation: spin-right 10s linear infinite;
+
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
