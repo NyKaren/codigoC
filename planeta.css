@@ -30,16 +30,34 @@ html, body {
 #earth {
     /* Estilize sua terra */
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 0;
+    left: 50%;
     
     border-color: lightblue;
     border-width: 3px;
     border-style: solid;
     border-radius: 50%;
     box-shadow: 0 0 128px green;
+    
+    height: 50px;
+    width: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
 }
 
 #earth-orbit {
     /* Para a seção #2 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 500px;
+    height: 1000px;
+    margin-top: -250px;
+    margin-left: -250px;
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
 }
